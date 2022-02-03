@@ -4,7 +4,8 @@ The method consists of 2 steps. 1. The Data-Scraping-Process and 2. the CSV. Tra
 I'm new to Github, this is my very first post/project/tutorial. If anything is not right, don't be afraid to point it out to me, preferably with a solution. If you are only interested in data scraping, then only the first step is interesting for you. 
 
 ## Webscraper.io Use:
-- This is a functional data web scraper method for ANY Trustpilot.com feedback/reputation site. It collects all comments and transfers them to a CSV. text document. It took me about 2 days to get 500,000 comments. Admittedly, this is a very manual method. But the main thing is that this method works and works great. 
+- This is a functional data web scraper method for ANY Trustpilot.com feedback/reputation site. It collects all comments and transfers them to a CSV. text document. It took me about 2 days to get 500,000 comments. Admittedly, this is a very manual method. But the main thing is that this method works and works great.
+- You can change anything you want in the web scraper. I have introduced two functions here. One is the paginator function, which automatically selects the next page and the scraper function which collects all the data for a specific comment and puts it into a row in a CSV. Document. This is the user name, the date, the rating text, the rating, the country, the comment ratings and the number of user views. 
 
 ## Python Use:
 - The Python script allows conversion of some rows that are in the wrong data format, such as the date, which is a str and therefore not suitable for Data Science. It also combines the comments into one document so that all the individual scraping pages are contained in one document. 

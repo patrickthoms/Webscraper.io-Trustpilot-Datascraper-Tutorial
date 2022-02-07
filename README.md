@@ -1,4 +1,4 @@
-# Trustpilotscraper-Transformer 500.000 Comments scraped in 2 Days in an analyzable format
+# Trustpilotscraper + Transformation Tool. How to scrape 1 Million Comments in 2 Days. 
 
 The method consists of 2 steps. 1. The Data-Scraping-Process and 2. the CSV. Transformation process with Python. Both steps I will try to explain in detail. 
 I'm new to Github, this is my very first post/project/tutorial. If anything is not right, don't be afraid to point it out to me, preferably with a solution. If you are only interested in data scraping, then only the first step is interesting for you. 
@@ -8,7 +8,7 @@ I'm new to Github, this is my very first post/project/tutorial. If anything is n
 - You can change anything you want in the web scraper. I have introduced two functions here. One is the paginator function, which automatically selects the next page and the scraper function which collects all the data for a specific comment and puts it into a row in a CSV. Document. This is the user name, the date, the rating text, the rating, the country, the comment ratings and the number of user views. 
 
 ## Python Use:
-- The Python script allows conversion of some rows that are in the wrong data format, such as the date, which is a str and therefore not suitable for Data Science. It also combines the comments into one document so that all the individual scraping pages are contained in one document. 
+- The Python script allows conversion of some rows that are in the wrong data format, such as the date, which is a str and therefore not suitable for Data Science. It also combines the individual webscraper.io exports into one document so that all the individual scraping pages are contained in one document. 
 - In addition, I'll add a couple of Python script tools that allow you to add different dates to the scraped documents, as well as functions that allow you to group the comments by year, so you can get rating averages per year.
 
 # Step 1: Trust-Pilot Data-Scraping Process - Tutorial
@@ -23,13 +23,10 @@ I'm new to Github, this is my very first post/project/tutorial. If anything is n
 10. click now on Start Scraping. Unfortunately you have to scroll down again and select 1 time "next page". After that you can let everything scrape in the background. Tip: Depending on your processor power you can have several instances scrape at the same time. You only have to start the process once and always scroll down once initially and load the next page.
 11. The scraper will give you a short message when the process is finished. 
 12. Now export the data. Again go to the tab "Sitemap [Your Sitemap Name]" in my case it is "Sitemap Example". And select "Export data as CSV".
-13. done.
+13. done. Repeat the process as many times as you like, with as many pages as necessary.
 
 # Step 2: Data processing with Python Pandas
-In meinem Beispiel habe ich Anacondas verwendet. Es sei gesagt, dass es hierbei zahlreiche alternativen Möglichkeiten gibt
-
-# Auszug aus meiner Masterarbeit
-Translated with deepL.com
+Comming soon.
 
 # Bugs that happend to me:
 -No Scraping function on Windows 10 Chrome browser. Try Firefox in this case.

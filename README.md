@@ -30,4 +30,4 @@ Comming soon.
 
 # Bugs that happend to me:
 -No Scraping function on Windows 10 Chrome browser. Try Firefox in this case.
--Bei sehr großen Seiten mit mehr als 10.000 Kommentaren stürzt der Scraper öfters mal ab, bzw. ist instabil. Hierbei rate ich die Geschwindigkeit vor dem Scraping Prozess zu erhöhen. 
+-On very large pages with more than 10,000 comments, the scraper often crashes or is unstable. In this case, I recommend increasing the speed before the scraping process.

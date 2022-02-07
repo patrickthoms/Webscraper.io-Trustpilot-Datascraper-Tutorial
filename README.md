@@ -29,5 +29,5 @@ I'm new to Github, this is my very first post/project/tutorial. If anything is n
 Comming soon.
 
 # Bugs that happend to me:
--No Scraping function on Windows 10 Chrome browser. Try Firefox in this case.
--On very large pages with more than 10,000 comments, the scraper often crashes or is unstable. In this case, I recommend increasing the speed before the scraping process.
+- No Scraping function on Windows 10 Chrome browser. Try Firefox in this case.
+- On very large pages with more than 10,000 comments, the scraper often crashes or is unstable. In this case, I recommend increasing the speed before the scraping process.
